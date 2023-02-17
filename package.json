@@ -1,6 +1,7 @@
 {
   "scripts": {
-    "build": "npx swc git.ts -o git.js"
+    "build": "npx swc git.ts -o git.js",
+    "test": "node git.js"
   },
   "devDependencies": {
     "@swc/cli": "^0.1.62",
